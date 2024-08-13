@@ -1,0 +1,229 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Main Layout */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #34495e;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+header .tagline {
+    color: #ecf0f1;
+    font-size: 1rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+}
+
+.product-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-item p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.product-item button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.product-item button:hover {
+    background: #2ecc71;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+
+.remove-btn:hover {
+    background: #c0392b;
+}
+
+/* Search and Filter */
+.search-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.search-filter input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-filter button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.search-filter button:hover {
+    background: #2980b9;
+}
+
+/* Cart and Liked Items */
+.cart, .liked-items {
+    margin-top: 2rem;
+}
+
+.cart ul, .liked-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li, .liked-items li {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+
+.cart button, .liked-items button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.cart button:hover, .liked-items button:hover {
+    background: #c0392b;
+}
+
+/* Payment Form */
+.payment-form {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.payment-form button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.payment-form button:hover {
+    background: #2ecc71;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    border-top: 1px solid #34495e;
+    text-align: center;
+}
